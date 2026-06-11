@@ -8,7 +8,8 @@ __pycache__/
 .venv/*
 *.o
 *.a
-/vendor
+# 临时注释掉 vendor 忽略规则（让字体/CDN 资源能部署到 GitHub Pages）
+# /vendor
 *.egg-info/
 /.env
 .env
